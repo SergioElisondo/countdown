@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+
+#video-wrap {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#myVideo {
+    position: absolute;
+    /* ******************************** IT'S OVER 9000!!!!!!!************************ */
+    top: -9999px; 
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    /* ******************************** IT'S OVER 9000!!!!!!!************************ */
+    margin: auto;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    filter: brightness(30%);   
+}
+
+.leftCornerBox {
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 3%;
+    margin-left: 3%;
+    margin-right: 92%;
+    border-radius: 50%;
+    
+}
+
+img {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.cornerLogo {
+    float: left;
+    min-width: 100%;
+    height: auto;
+
+}
+
+h1 {
+    float: left;
+    text-align: center;
+    font-weight: 100;
+    font-size: 10vh;
+    width: 50%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 35%;
+    color: antiquewhite;
+    z-index: 1;
+}
+
+.mainTitle {
+    margin-top: 10%;
+    float: left;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    /* border: 1px solid white; */
+}
+
+
+
+
+/* CURRENTLY FOR TIMER COMMENT OUT WHOLE .buttonButton AFTER*/
+.bottomButton {
+    margin-top: -5%;
+    float: left;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid white; */
+}
+
+
+/* USE THIS FOR THE ACTUAL SITE */
+/* .bottomButton {
+    margin-top: 10%;
+    float: left;
+    width: 100%;
+    height: auto; 
+}  */
+
+/* USE THIS FOR THE ACTUAL SITE */
+/* h2 {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 100px;
+    border: 1px solid white;
+    font-weight: 300;
+    font-size: 2vw;
+    float: left;
+    margin-top: 5%;
+    width: 13%;
+    height: auto;
+    margin-left: 44.5%;
+    margin-right: 44.5%;
+    color: antiquewhite;
+    text-shadow: 2px 2px 4px #000000;
+    z-index: 1;
+} */
+
+
+/* CURRENTLY FOR TIMER COMMENT OUT all h2 AFTER */
+h2 {
+    text-align: center;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    border-radius: 100px;
+    /* background-color: rgba(0, 0, 0, 0.438); */
+    /* border: 1px solid white; */
+    font-weight: 300;
+    font-size: 3vh;
+    float: left;
+    /* margin-top: 2%; */
+    width: 30%;
+    height: auto;
+    margin-left: 34.5%;
+    margin-right: 35.5%;
+    color: rgba(250, 235, 215, 0.63);
+    text-shadow: 2px 2px 4px #000000;
+    z-index: 1;
+}
+
+
+
+/* .a {color:#ffffff;}        
+a:visited {color:#ffffff;} 
+a:hover {color:#fa00fa;}   
+a:active {color:#0000FF;} 
+} */
+
+a {
+    color: white;
+    -webkit-transition: color .5s;
+    -moz-transition:    color .5s;
+    -ms-transition:     color .5s;
+    -o-transition:      color .5s;
+    transition:         color .5s;
+}
+
+a:hover {
+    color: rgb(157, 69, 240);
+}
+
+
+
+ 
+    .fade:hover {
+       opacity: 0.5;
+       }
+
+       .fade-in {
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 700px) {
+
+    * {
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-family: 'Roboto', sans-serif;
+        font-size: 62.5%;
+    }
+
+    .leftCornerBox {
+        float: left;
+        margin-left: 5%;
+        margin-top: 2%;
+        width: 8%;
+        margin-left: 3%;
+        margin-right: 96%;
+        border-radius: 50%;
+        
+    }
+    
+    img {
+        float: left;
+        width: 100%;
+        height: auto;
+    }
+    
+    .cornerLogo {
+        float: left;
+        min-width: 100%;
+        height: auto;
+    
+    }
+    
+    .centerTheMainTitle {
+        margin-top: 50%;
+        float: left;
+        width: 50%;
+        margin-right: 45%;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    h1 {
+         margin-left: 65%;
+    /* margin-right: 25%; */
+    width: 35%;
+    margin-top: 100%;
+    float: left;
+    text-align: center;
+    font-weight: 100;
+    font-size: 3vh;
+    height: auto;
+    color: antiquewhite;
+    z-index: 1;
+    
+    }
+    
+    .bottomButton {
+        
+        float: left;
+        width: 100%;
+        height: auto;
+   
+        
+        /* border: 1px solid white; */
+    }
+    
+
+
+    /************* add the border: 1px.... once the countdown is done! **************/
+    h2 {
+        text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 100px;
+    /* background-color: rgba(0, 0, 0, 0.438); */
+    /* border: 1px solid white;border: 1px solid white; */
+    font-weight: 300;
+    font-size: 2.5vw;
+    float: left;
+    margin-top: 5%;
+    width: 25%;
+    height: auto;
+    margin-left: 39%;
+    margin-right: 36%;
+    color: antiquewhite;
+    text-shadow: 2px 2px 4px #000000;
+    z-index: 1;
+    }
+
+    
+}
